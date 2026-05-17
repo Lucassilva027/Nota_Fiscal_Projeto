@@ -1,4 +1,4 @@
-# Detalhamento Tecnico
+# Detalhamento Tecnico — Sistema de Nota Fiscal
 
 ## Stack adotada
 

@@ -1,6 +1,6 @@
 # Sistema de Emissao de Notas Fiscais
 
-Aplicacao full stack desenvolvida para o desafio tecnico da Korp com:
+Aplicacao full stack para emissao e gestao de notas fiscais, com:
 
 - `frontend`: Angular 20
 - `StockService`: ASP.NET Core 10 + EF Core + SQLite
@@ -10,12 +10,16 @@ Aplicacao full stack desenvolvida para o desafio tecnico da Korp com:
 
 - Microsservico de Estoque: cadastro de produtos, consulta de saldos, baixa de estoque e simulacao de falha.
 - Microsservico de Faturamento: criacao de notas fiscais com numeracao sequencial, status Aberta ou Fechada e impressao.
-- Frontend Angular: interface unica para cadastrar produtos, abrir notas, imprimir e testar o comportamento de falha.
+- Frontend Angular: interface unica para cadastrar produtos, abrir notas, imprimir e validar o comportamento de falha.
 
 Cada microsservico possui seu proprio banco SQLite:
 
 - `StockService/stock.db`
 - `BillingService/billing.db`
+
+## Solution
+
+Abra `SistemaNotaFiscal.sln` no Visual Studio ou use `dotnet build` nos projetos individualmente.
 
 ## Funcionalidades implementadas
 
